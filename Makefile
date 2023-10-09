@@ -6,15 +6,12 @@ start-localstack:
 
 
 tf-init:
-	cd services
 	tflocal init -upgrade
 
 tf-plan:
-	cd services
 	tflocal plan
 
 tf-apply:
-	cd services
 	tflocal apply
 
 

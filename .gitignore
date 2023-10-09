@@ -1,0 +1,4 @@
+
+/services/.terraform/
+/services/.terraform.lock.hcl
+/services/terraform.tfstate

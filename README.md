@@ -30,6 +30,7 @@ docker-compose up
 
 # Validate created resources
 Inside  your docker localstack cli, run a command to see if your resource was created:
+
 https://github.com/liniribeiro/terraform-localstack/assets/10133177/b6306b44-1e70-427a-9523-1b190365d19e
 
 Commands: 

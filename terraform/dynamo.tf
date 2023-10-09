@@ -4,7 +4,7 @@ resource "aws_dynamodb_table" "log_table" {
   read_capacity  = "30"
   write_capacity = "30"
   range_key      = "time"
-  hash_key       = "mes_type"
+  hash_key       = "type"
 
 
   attribute {
@@ -13,7 +13,7 @@ resource "aws_dynamodb_table" "log_table" {
   }
 
   attribute {
-    name = "mes_type"
+    name = "type"
     type = "S"
   }
 

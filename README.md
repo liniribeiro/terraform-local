@@ -32,7 +32,7 @@ docker-compose up
 Inside  your docker localstack cli, run a command to see if your resource was created:
  ```
  awslocal s3 ls
- awslocal dynamodb list-tables 
+ awslocal dynamodb list-tables
  etc..
  ```
 

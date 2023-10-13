@@ -25,9 +25,6 @@ We can reduce costs by creating on-demand development and deployment environment
 #### Reduced time to provision
 Traditional click-ops methods of deployment used by organizations can take days or even weeks, in addition to being error-prone. With Terraform, full deployment can take just minutes.
 
-# Terraform State 
-Terraform stores state information about our managed infrastructure and configuration. This state is used to map real world resources to our configuration and then use it to determine which changes to make to your infrastructure.
-
 This state file is extremely important, it maps various resource metadata to actual resource IDs so that Terraform knows what it is managing. This file must be saved and distributed to anyone who might run Terraform.
 
 

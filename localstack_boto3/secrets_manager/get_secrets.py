@@ -6,7 +6,7 @@ client = boto3.client('secretsmanager', endpoint_url="http://localhost:4566", re
 
 
 secret = '{"host": "localhost", "username": "postgres", "password": "postgrespw",' \
-         ' "dbname": "credit_card_api", "port": "5432" }'
+         ' "dbname": "dbname", "port": "5432" }'
 
 response = client.put_secret_value(
     SecretId='MyTestDatabaseSecret',
